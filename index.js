@@ -17,7 +17,7 @@ const io = new Server(server, {
   cors: {
     // which url makes call to socket.io server
     // which url react app will be running
-    origin: "http://localhost:3000",
+    origin: "*",
     methods: ["GET", "POST"],
   },
 });
